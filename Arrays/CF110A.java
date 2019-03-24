@@ -15,6 +15,5 @@ public class CF110A{
 		}else{
 			System.out.println("NO");
 		}
-		
 	}
 }
