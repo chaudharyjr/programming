@@ -79,8 +79,24 @@ class SuffixArray
     	return newClass;
     }
 
-    
-    
+    /*
+    vector<int> BuildSuffixArray(const string& text) {
+  vector<int> result;
+  // Implement this function yourself
+  vector<int> order(text.size());
+  counting_sort_char(text, order);
+
+  vector<int> sort_class(text.size());
+  compute_class(text, order, sort_class);
+
+  for (int l = 1; l <= text.size(); l *= 2) {
+    order = sort_double(text, l, order, sort_class);
+    sort_class = update_class(order, sort_class, l);
+  }
+
+  return order;
+} 
+*/
 
   
 	public static void main (String[] args) throws java.lang.Exception
